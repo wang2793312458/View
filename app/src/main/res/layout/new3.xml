@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white">
+    <!--    lineSpacingExtra属性代表的是行间距，他默认是0，是一个绝对高度值。
+    同时还有lineSpacingMultiplier属性，它代表行间距倍数，默认为1.0f，是一个相对高度值-->
+
+
+    <!--高度计算规则为mTextPaint.getFontMetricsInt(null) * 行间距倍数 + 行间距。-->
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="25dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:lineSpacingMultiplier="1.3"
+        android:text="揽件方式：上门取件\n快递公司：顺丰快递\n预约时间：9月6日 立即取件\n快递费用：等待称重确定价格"
+        android:textSize="14dp"/>
+
+</LinearLayout>

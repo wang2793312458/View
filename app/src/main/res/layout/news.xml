@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:orientation=""
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- 第一种方式-->
+
+    <ImageView
+        android:padding="25dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="100dp">
+
+        <TextView
+            tools:text="揽件方式：上门取件"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            tools:text="快递公司：顺丰快递"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            tools:text="预约时间：9月6日 立即取件"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            tools:text="快递费用：等待称重确定价格"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

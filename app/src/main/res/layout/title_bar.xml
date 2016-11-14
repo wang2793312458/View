@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/springgreen"
+                android:orientation="vertical">
+    <!-- 公共的布局，常用的标题栏，在Activity的布局里用include使用 -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:text="标题"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:text="确定"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+</RelativeLayout>

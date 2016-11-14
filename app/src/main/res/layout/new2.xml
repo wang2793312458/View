@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:layout_width="match_parent">
+   <!-- 利用Android:lineSpacingExtra="8dp"这一行代码就省去了3个TextView-->
+    <ImageView
+        android:padding="25dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:textSize="14dp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center_vertical"
+        android:text="揽件方式：上门取件\n快递公司：顺丰快递\n预约时间：9月6日 立即取件\n快递费用：等待称重确定价格"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
